@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_font_size"
+            android:text="Your fucking IP address:" />
+
+        <TextView
+            android:id="@+id/data_ip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_font_size"
+            android:text="Your fucking host name:" />
+
+        <TextView
+            android:id="@+id/data_hostname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_font_size"
+            android:text="Your fucking ISP:" />
+
+        <TextView
+            android:id="@+id/data_isp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_font_size"
+            android:text="Geographic location of your fucking IP address:" />
+
+        <TextView
+            android:id="@+id/data_location"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/data_city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/data_country"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/data_countrycode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_font_size"
+            android:text="Your connection is from a fucking Tor exit:" />
+
+        <TextView
+            android:id="@+id/data_tor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/data_height"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/data_font_size"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/loading"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
